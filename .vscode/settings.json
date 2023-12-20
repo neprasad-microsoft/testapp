@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0fdb4f42-0ee8-400b-a90b-11925283930c/resourceGroups/naa-android_group/providers/Microsoft.Web/sites/naa-android",
+    "appService.deploySubpath": "."
+}

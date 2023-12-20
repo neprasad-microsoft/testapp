@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">  
+  <Id>5d49687c-66c4-4292-b9a7-1527a2fe9088</Id>  
+  <Version>1.5.0.0</Version>  
+  <ProviderName>Microsoft Corporation</ProviderName>  
+  <DefaultLocale>en-US</DefaultLocale>  
+  <DisplayName DefaultValue="Test NAA App" />  
+  <Description DefaultValue="Test NAA" />  
+   <!--Icon for your add-in. Used on installation screens and the add-ins dialog -->  
+  <IconUrl DefaultValue="https://fa000000110.resources.office.net/f7024bdc-7caf-4ca8-807d-2908f09640d6/1.0.0.2/en-us_web/apps/wikipedia/images/wikipedia_32x32.png" /> 
+  <HighResolutionIconUrl DefaultValue="https://fa000000110.resources.office.net/f7024bdc-7caf-4ca8-807d-2908f09640d6/1.0.0.2/en-us_web/apps/wikipedia/images/wikipedia_64x64.png" />
+  <SupportUrl DefaultValue="https://answers.microsoft.com/en-us/office/forum/office_home-office_store" />
+  <Hosts>  
+    <Host Name="Document" />
+    <Host Name="Workbook" />
+    <Host Name="Presentation" />
+  </Hosts>  
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://localhost:3000" />  
+  </DefaultSettings>  
+   <!--EndTaskpaneMode integration -->  
+  
+  <Permissions>ReadWriteDocument</Permissions>
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <WebApplicationInfo>
+      <Id>17a38bc9-89bc-4b24-9a00-cbea39b3cb6a</Id>
+        <Resource>https://graph.microsoft.com</Resource>
+        <Scopes>
+        <Scope>profile</Scope>
+        <Scope>files.read.all</Scope>
+        <Scope>user.read</Scope>
+        <Scope>offline_access</Scope>
+        </Scopes>
+      </WebApplicationInfo>
+  </VersionOverrides>
+</OfficeApp>  
