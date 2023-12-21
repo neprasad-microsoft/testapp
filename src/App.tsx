@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import './App.css';
 import { AccountInfo, IPublicClientApplication, PublicClientNext, AuthenticationResult, AuthError, InteractionRequiredAuthError, ServerError } from "@azure/msal-browser";
 
-const clientId = "50a25558-6bab-41c6-82d2-6f76bc4ebd34";
+const clientId = "71e902e2-6b37-435c-ae5f-10f95e7f1cfe";
 const config = {
   auth: {
     clientId,

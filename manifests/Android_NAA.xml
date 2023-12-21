@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xsi:type="MailApp">
-	<Id>5d49687c-66c4-4292-b9a7-1527a2fe9088</Id>
+	<Id>71e902e2-6b37-435c-ae5f-10f95e7f1cfe</Id>
 	<Version>1.0.0.0</Version>
 	<ProviderName>Microsoft Corporation</ProviderName>
 	<DefaultLocale>en-US</DefaultLocale>
