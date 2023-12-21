@@ -16001,10 +16001,11 @@ var OfficeFirstPartyAuth;
         };
         var _onMessgeEventRegistered = false;
         var _authBridgePromiseMap = {};
-        type AuthBridgeResponse = string | { data: string };
-        var _nestedAppAuthBridgeOnMessageHandler = function (response:AuthBridgeResponse) {
+       // type AuthBridgeResponse = string | { data: string };
+        var _nestedAppAuthBridgeOnMessageHandler = function (response) {
             try {
-                const responsePayload = typeof response === "string" ? response : response.data;
+                const responsePayload = response.data ? response.data : response;
+               // const responsePayload = typeof response === "string" ? response : response.data;
                 const parsedResponse = JSON.parse(responsePayload);
                 //var parsedResponse = JSON.parse(response);
                 if (parsedResponse["requestId"]) {
