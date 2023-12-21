@@ -16001,9 +16001,12 @@ var OfficeFirstPartyAuth;
         };
         var _onMessgeEventRegistered = false;
         var _authBridgePromiseMap = {};
-        var _nestedAppAuthBridgeOnMessageHandler = function (response) {
+        type AuthBridgeResponse = string | { data: string };
+        var _nestedAppAuthBridgeOnMessageHandler = function (response:AuthBridgeResponse) {
             try {
-                var parsedResponse = JSON.parse(response);
+                const responsePayload = typeof response === "string" ? response : response.data;
+                const parsedResponse = JSON.parse(responsePayload);
+                //var parsedResponse = JSON.parse(response);
                 if (parsedResponse["requestId"]) {
                     var requestId = parsedResponse["requestId"];
                     if (_authBridgePromiseMap.hasOwnProperty(requestId)) {

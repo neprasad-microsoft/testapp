@@ -23,11 +23,11 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://naa-mobile-test.azurewebsites.net" />
+				<SourceLocation DefaultValue="https://jolly-ground-051cf2e10.4.azurestaticapps.net" />
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
             <PhoneSettings>
-              <SourceLocation DefaultValue="https://naa-mobile-test.azurewebsites.net" />
+              <SourceLocation DefaultValue="https://jolly-ground-051cf2e10.4.azurestaticapps.net" />
             </PhoneSettings>
 		</Form>
 	</FormSettings>
@@ -75,8 +75,8 @@
 				<bt:Image id="icon-80" DefaultValue="https://www.onenote.com/officeaddins/images/sendtoonenote/OneNoteLogo80x80.png"/>
 			</bt:Images>
 			<bt:Urls>
-				<bt:Url id="taskPaneUrlRead" DefaultValue="https://naa-mobile-test.azurewebsites.net" />
-				<bt:Url id="taskPaneUrlWrite" DefaultValue="https://naa-mobile-test.azurewebsites.net" />
+				<bt:Url id="taskPaneUrlRead" DefaultValue="https://jolly-ground-051cf2e10.4.azurestaticapps.net" />
+				<bt:Url id="taskPaneUrlWrite" DefaultValue="https://jolly-ground-051cf2e10.4.azurestaticapps.net" />
 			</bt:Urls>
 			<bt:ShortStrings>
 				<bt:String id="groupLabel" DefaultValue="NAA Test App"/>
@@ -153,8 +153,8 @@
 					<bt:Image id="icon-80" DefaultValue="https://www.onenote.com/officeaddins/images/sendtoonenote/OneNoteLogo80x80.png"/>
 				</bt:Images>
 				<bt:Urls>
-					<bt:Url id="taskPaneUrlRead" DefaultValue="https://naa-mobile-test.azurewebsites.net" />
-					<bt:Url id="taskPaneUrlWrite" DefaultValue="https://naa-mobile-test.azurewebsites.net" />
+					<bt:Url id="taskPaneUrlRead" DefaultValue="https://jolly-ground-051cf2e10.4.azurestaticapps.net" />
+					<bt:Url id="taskPaneUrlWrite" DefaultValue="https://jolly-ground-051cf2e10.4.azurestaticapps.net" />
 				</bt:Urls>
 				<bt:ShortStrings>
 					<bt:String id="onenoteLabel" DefaultValue="NAA Test App"/>
